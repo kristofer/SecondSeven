@@ -11,6 +11,8 @@ class too_high_too_low:
             pass
             # Get a number guess from the user (between 1 and 100)
             # Convert the input to an integer
+            userGuess = int(input("Guess? "))
+            
             # Increment the number of guesses by 1
             # Check *if* the guess equals the secret number
             # If correct, print a congratulations message with the number of guesses
